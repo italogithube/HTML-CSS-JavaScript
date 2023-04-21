@@ -1,14 +1,14 @@
 # HTML-CSS-JavaScript
  Exercicios de Programação
 
-<header>
+<head>
 <style>
 a {
     background-color:red;
 }
 
 </style>
-</header>
+</head>
 
 Exercicios de HTML <br>
 <a href="https://italogithube.github.io/HTML-CSS-JavaScript/HTML/ex01/index.html">Exercicio 01<a><br>

@@ -3,8 +3,8 @@
 
 <head>
 <style>
-div {
-    background-color:rgb(22, 109, 190);
+ div {
+    background-color:#4169E1;
     color:white;
 }
 

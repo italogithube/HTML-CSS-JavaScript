@@ -3,7 +3,7 @@
 
 <head>
 <style>
- div {
+ a {
     background-color:#4169E1;
     color:white;
 }
@@ -12,7 +12,7 @@
 </head>
 
 Exercicios de HTML <br>
-<div>
+
 <a href="https://italogithube.github.io/HTML-CSS-JavaScript/HTML/ex01/index.html">Exercicio 01<a><br>
 <a href="https://italogithube.github.io/HTML-CSS-JavaScript/HTML/ex01/index.html">Exercicio 02<a><br>
 <a href="https://italogithube.github.io/HTML-CSS-JavaScript/HTML/ex01/index.html">Exercicio 03<a><br>
@@ -24,5 +24,5 @@ Exercicios de HTML <br>
 <a href="https://italogithube.github.io/HTML-CSS-JavaScript/HTML/ex01/index.html">Exercicio 09<a><br>
 <a href="https://italogithube.github.io/HTML-CSS-JavaScript/HTML/ex01/index.html">Exercicio 09<a><br>
 <a href="https://italogithube.github.io/HTML-CSS-JavaScript/HTML/ex01/index.html">Exercicio 10<a><br>
-</div>
+
 

@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+     
+   
+}
+header{
+    background-image: linear-gradient(to right, rgb(99, 15, 15), rgb(240, 22, 22));
+    padding: 10px;
+    color:
+    
+     
+
+}
+.titulo{
+    font-size: 90px;
+    
+}
+
+header,nav,div,a{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.poesia-1{
+    font-family: cursive;
+    border: 1px solid black;
+    font-size: 50px;
+    padding: 5%;
+}
+
+.poesia-2{
+    
+    font-family: cursive;
+    color: white;
+    border: 1px solid black;
+    font-size: 50px;
+    padding: 5%;   
+   
+   
+}
+#paralax{
+    background-color: black;
+    height: 700px;
+    width: 600px;
+    margin: 50px;
+    padding: 10px;
+    text-align: left;
+}

@@ -4,11 +4,9 @@ body{
    
 }
 header{
-    background-image: linear-gradient(to right, rgb(99, 15, 15), rgb(240, 22, 22));
+    background-image: linear-gradient(to bottom, rgb(43, 4, 61), rgb(142, 22, 240));
     padding: 10px;
-    color:
     
-     
 
 }
 .titulo{
@@ -25,26 +23,31 @@ header,nav,div,a{
 }
 .poesia-1{
     font-family: cursive;
-    border: 1px solid black;
     font-size: 50px;
-    padding: 5%;
+    padding: 3%;
+    text-align: left;
+    color: black;
+    
 }
 
 .poesia-2{
-    
-    font-family: cursive;
-    color: white;
-    border: 1px solid black;
-    font-size: 50px;
-    padding: 5%;   
-   
-   
-}
-#paralax{
-    background-color: black;
-    height: 700px;
+    background-image: linear-gradient(to bottom, rgb(43, 4, 61), rgb(142, 22, 240));
     width: 600px;
-    margin: 50px;
-    padding: 10px;
+    font-family: cursive;
     text-align: left;
+    font-size: 50px;
+    color: white;
+    padding: 3%;
+    box-shadow: 1px 1px 10px black ;
+    border-radius: 8px;
+    
 }
+.parallax {
+ 
+    background-image: url(img/wallpaper006.jpg);
+    background-attachment: fixed;
+    padding: 40px;
+ 
+}
+
+

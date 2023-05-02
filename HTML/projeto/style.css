@@ -1,6 +1,7 @@
 body{
     margin: 0;
-     
+    background-image: url(img/wallpaper006.jpg);
+   
    
 }
 header{
@@ -22,11 +23,16 @@ header,nav,div,a{
     font-size: 30px;
 }
 .poesia-1{
+    background-color: aliceblue;
     font-family: cursive;
     font-size: 50px;
     padding: 3%;
     text-align: left;
     color: black;
+    width: 600px;
+    margin: 3%;
+    box-shadow: 1px 1px 10px rgb(158, 158, 158) ;
+    border-radius: 8px;
     
 }
 
@@ -42,11 +48,25 @@ header,nav,div,a{
     border-radius: 8px;
     
 }
-.parallax {
-    background-image: url(img/wallpaper006.jpg);
-    background-attachment: fixed;
-    padding: 40px;
+.parallax-1{
+    background: url(img/back-pc.jpg) fixed no-repeat;
+    background-size: cover;  
+    padding: 3%;
+}
+
+.parallax-2 {
+    background: url(img/back-phone.jpg) fixed ;
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 3%;
+
 
 }
+
+background-image: url(img/wallpaper006.jpg);
+background-attachment: fixed;
+padding: 40px;
+background-image: cover;
 
 

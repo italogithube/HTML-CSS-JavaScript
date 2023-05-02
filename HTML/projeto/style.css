@@ -55,6 +55,7 @@ header,nav,div,a{
 }
 
 .parallax-2 {
+    
     background: url(img/back-phone.jpg) fixed ;
     background-position: ;
     background-repeat: no-repeat;
@@ -64,9 +65,9 @@ header,nav,div,a{
 
 }
 
-background-image: url(img/wallpaper006.jpg);
+/*background-image: url(img/wallpaper006.jpg);
 background-attachment: fixed;
 padding: 40px;
-background-image: cover;
+background-image: cover;*/
 
 

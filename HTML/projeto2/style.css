@@ -1,18 +1,16 @@
-.container{
-    width: 100%;
-    height: 500px;
-    background-color: bisque;
-    display: flex;
-    justify-content:  center;
-    align-items: center;
-    flex-direction: row;
-
-
+*{
+    margin: 0;
+    padding: 0;
 }
-div{
-    height: 500px;
-    width: 500px;
-    margin: 10px;
-    background-color: brown;
-     
+header{
+    background: url(img/logo.png) no-repeat;
+    background-color: rgb(49, 133, 105);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+form{
+    float: right;
 }

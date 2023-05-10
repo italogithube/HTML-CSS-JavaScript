@@ -109,18 +109,21 @@ main>section{
     font-size: 22px;
     text-align: left;
     padding: 10%;
-    width: 40%;
+    width: 50%;
 }
 h1{
     text-align: center;
-    padding: 3%;
+    padding: 1%;
 }
 main>div>img{
-    height: 200px;
+    height: 300px;
+  
+     
 }
 .img1{
-    width: 40%;
-    padding: 10%;
+    width: 30%;
+    padding: 100px;
+     
 
 }
 

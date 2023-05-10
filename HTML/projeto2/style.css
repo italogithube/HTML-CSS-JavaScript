@@ -31,18 +31,46 @@ form>a>img {
 
 
  /* MENU DE NAVEGACAO */
-.menu{
+.menu-nave{
 
     height: 60px;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
+    background-color: black; 
+     
+}
+.menu{
+    width: 1650px;
+    height: 60px;
+    /* background-color: aqua; */
+    margin: auto;
+    justify-content: space-between;
     align-items: center;
-    background-color: black;
-    color:white;
+    display: flex;
+    
+}
+.menu-nave>div>section>ul{
+    display: flex;
 }
 
 li{
-    list-style: none;
+    text-decoration: none;
 }
+nav>div>section>ul>a{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    padding: 15px;
+}
+
+nav>div>section>a>img{
+    width: 20px;
+    padding: 10px;
+}
+.google,li:hover{
+     
+    color:rgb(3, 236, 127);
+}
+ 
+/* CONTEUDO PRINCIPAL */
+
 

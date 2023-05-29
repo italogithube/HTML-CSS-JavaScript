@@ -83,4 +83,28 @@ section>div>p{
     
 }
 
+/* nav ul a li::after{
+    background-color: red;
+    height: 3px;
+    width: 100%;
+    display: block;
+    transition: 0 .3s;
+}
+
+nav ul a li:hover::after{
+    width: 100%;
+
+}
+ */
+a:not(.btn)::after{
+    background-color: aqua;
+    height: 3px;
+    width: 100%;
+    transition: 0.5s;
+    display: block;
+
+}@keyframes animate-outline{
+    
+}
+
 

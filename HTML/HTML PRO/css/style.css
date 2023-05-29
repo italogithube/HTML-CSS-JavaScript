@@ -1,0 +1,26 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #131416;
+    font-family: 'inter', sans-serif;
+    color: white;
+
+}
+h1{
+    font-size: 50px;
+    padding: 5px;
+}
+header,div,img{
+
+ justify-content: center;
+ display: flex;
+ 
+}
+
+.container-htmlpro{
+
+    border: 1px solid white;
+    width: 1285px;
+    height: 00px;
+}

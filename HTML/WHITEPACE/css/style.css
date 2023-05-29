@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    background-color: #f1f6fc32;
+}
+section,footer{
+    padding: 54px,0;
+     
+}
+h3{
+    font-size: 50px;
+}
+p{
+    color: #0000009c;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 5%;
+    background-color: rebeccapurple;
+    
+}
+  

@@ -1,28 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing:border-box ;
+    box-sizing:border-box;
     text-decoration: none;
     outline: none;
+    font-family: 'Inter', sans-serif;
+}
+ul,li{
+    display: flex;
+    align-items: center;
 }
 body{
-    background-color: #f1f6fc32;
+    background-color: #b6b6b632;
 }
 section,footer{
-    padding: 54px,0;
+    padding: 54px 0;
      
 }
 h3{
     font-size: 50px;
 }
 p{
-    color: #0000009c;
+    color: #b4aeae9c;
 }
 .container{
     max-width: 1600px;
     margin: 0 auto;
     padding: 0 5%;
-    background-color: rebeccapurple;
     
 }
-  
+header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding:2%;
+
+}
+nav ul a{
+    color: white;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+.btn{
+    background-color: #4f94f9;
+    border-radius: 10px;
+    padding: 15px 20px ;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #3580db;
+    
+
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    padding: 18%;
+}
+
+section>div>h1{
+    font-size: 100px;
+    color: white;
+}
+section>div>p{
+    margin: 20px;
+    font-size: 20px;
+    color: #b9b3b3b7;
+    
+}
+
+

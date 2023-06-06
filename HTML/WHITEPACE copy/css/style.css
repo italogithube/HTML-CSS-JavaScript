@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    
+      
+}
+
+header{
+    background-image: url(../img/background-home.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    padding: 0 3%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    /* border: 1px solid yellow; */
+}
+.ul{
+   
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+nav>ul>li>a{
+    margin: 18px;
+    color: white;
+}
+ 
+.banner{
+
+    text-align: center;
+    align-items: center;
+    padding: 10%;
+
+}
+.text-banner{
+    color: white;
+    /* border: 1px solid yellow; */
+}
+h1{
+    font-size: 100px;
+}
+section>div>p{
+    font-size: 20px;
+    color: rgb(190, 189, 189);
+    margin:2% 0 5% 0;
+}
+.btn{
+    color: white;
+    background-color: rgb(69, 129, 219);
+    padding: 15px;
+    border-radius: 10px;
+}
+a:hover:not(.btn){
+    color:rgb(47, 129, 252) ;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgb(26, 113, 243) ;
+    transition: 0.5s;
+    
+}
+
+
+/* Conteudo principal */
+
+.faca-mais{
+    padding: 5%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    /* border: 1px solid rgb(162, 0, 255); */
+
+
+}
+.website-facil{
+    padding: 5%;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid rgb(162, 0, 255);     */
+
+}
+
+ 
+
+
+/*
+ANIMACAO
+.faca-mais,.website-facil,.banner {
+    animation: animationcard 0.4s linear both;
+}
+
+@keyframes animationcard{
+    0%{
+        opacity: 0;
+        transform: translate(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+} */
+h2{
+    font-size: 60px;
+}
+
+.whitepace{
+
+    background-image: url(../img/background-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 3%;
+
+}
+.text-whitepace {
+
+    max-width: 1600px;  
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.whitepace{
+    
+}

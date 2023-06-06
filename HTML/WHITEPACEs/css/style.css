@@ -22,6 +22,7 @@ header{
     margin: 0 auto;
     /* border: 1px solid red; */
     padding: 0 3%;
+    
 }
 .menu{
     display: flex;
@@ -44,7 +45,7 @@ nav>ul>li>a{
 
     text-align: center;
     align-items: center;
-    padding: 10%;
+    padding: 18%;
 
 }
 .text-banner{
@@ -54,14 +55,15 @@ nav>ul>li>a{
 h1{
     font-size: 100px;
 }
-section>div>p{
+/* section>div> */p{
+    
     font-size: 20px;
-    color: rgb(190, 189, 189);
+    color: #b9b3b3b7;
     margin:2% 0 5% 0;
 }
 .btn{
     color: white;
-    background-color: rgb(69, 129, 219);
+    background-color: rgb(47, 129, 252) ;
     padding: 15px;
     border-radius: 10px;
 }
@@ -70,74 +72,35 @@ a:hover:not(.btn){
     transition: 0.5s;
 }
 .btn:hover{
-    background-color: rgb(26, 113, 243) ;
-    transition: 0.5s;
+    background-color: #255dce ;
+    transition: 0.3s;
     
 }
 
 
 /* Conteudo principal */
-
-.faca-mais{
-    padding: 5%;
-    margin: 5%;
+ .faca-mais{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+     
+
+ }
+ .faca-mais2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex-direction: row-reverse;
-    align-items: center;
-    /* border: 1px solid rgb(162, 0, 255); */
+    margin: 10%;
 
+ }
 
-}
-.website-facil{
-    padding: 5%;
-    margin: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* border: 1px solid rgb(162, 0, 255);     */
-
-}
-
- 
-
-
-/*
-ANIMACAO
-.faca-mais,.website-facil,.banner {
-    animation: animationcard 0.4s linear both;
-}
-
-@keyframes animationcard{
-    0%{
-        opacity: 0;
-        transform: translate(100px);
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0px);
-    }
-} */
-h2{
-    font-size: 60px;
-}
-
-.whitepace{
-
-    background-image: url(../img/background-home.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 3%;
-
-}
-.text-whitepace {
-
-    max-width: 1600px;  
+  h3{
+    font-size: 50px;
+  }
+ .hr{
+    width: 1600px;
     margin: 0 auto;
-    text-align: center;
-    color: white;
-}
-.whitepace{
-    
-}
+    border-color: #f0f0f0;
+ }

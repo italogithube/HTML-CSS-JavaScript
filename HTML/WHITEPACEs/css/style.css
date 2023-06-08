@@ -84,7 +84,7 @@ a:hover:not(.btn){
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 5%;
+    margin: 10%;
      
 
  }
@@ -108,7 +108,7 @@ a:hover:not(.btn){
 /* fim do Conteudo principal */
 
 /* Cards */
-.text-depoimentos{
+.titulo-depoimentos{
     text-align: center;
 }
 .cards{
@@ -116,20 +116,21 @@ a:hover:not(.btn){
     border: 1px solid red;
     display: flex;
     justify-content: space-around;
-
 }
-.cards-comentarios{
 
-    width: 500px;
-    height: 600px;
+.cards-itens{
+
     background-color: #255dce;
-    margin: 5px;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
     border-radius: 10px;
+     
 }
 .cards-img{
-    border-radius: 50%;
-    border: 5px solid white;
     width: 100px;
-    margin: 0 auto;
+    border-radius: 100px;
+    margin: 30px auto;
 
 }
+
